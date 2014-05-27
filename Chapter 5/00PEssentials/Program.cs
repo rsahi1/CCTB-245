@@ -25,7 +25,7 @@ namespace _00PEssentials
 
         }
 
-# This is a "Method Declaration" - It states what the instructions are
+// This is a "Method Declaration" - It states what the instructions are
    static void DemoPolymorphism()
    {
        Store otherStore = new Store(2, "Future Buy");
