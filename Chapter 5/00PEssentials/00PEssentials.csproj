@@ -41,8 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assignment5.1.cs" />
     <Compile Include="Computer.cs" />
+    <Compile Include="Cylinder.cs" />
     <Compile Include="LaptopComputer.cs" />
+    <Compile Include="phone.cs" />
     <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

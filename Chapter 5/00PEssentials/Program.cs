@@ -12,7 +12,20 @@ namespace _00PEssentials
         {
         // DemoInheritance();
             DemoPolymorphism(); // This is a "Method Call" - It tells the method to run
+            DemoOperatorOverloading();
         }
+
+        static void DemoOperatorOverloading()
+        {
+            Cylinder barrel = new Cylinder(5, 20);
+            Console.WriteLine("The volume is " + barrel.Volume);
+            
+            Cylinder doubleBarrel = barrel + barrel;
+            Console.WriteLine("The volume is " + doubleBarrel.Volume);
+
+        }
+
+# This is a "Method Declaration" - It states what the instructions are
    static void DemoPolymorphism()
    {
        Store otherStore = new Store(2, "Future Buy");
