@@ -15,7 +15,7 @@ namespace CardGame.GameElements
         Three, Four, Five, Six, Seven, Eight, Nine, Ten,
         Jack, Queen, King
     }
-
+    // An Immutable type - It cannot be changed
     class Card
     {
         public Suit Suit { get; private set; }
@@ -32,5 +32,14 @@ namespace CardGame.GameElements
 
         }
         // TODO : Create a constructor that take two parameters: a Suit and a CardFace
+        public Card(Suit theSuit, CardFace theFace)
+        {
+            this.Suit = theSuit;
+            this.Face = theFace;
+        }
+        public override string ToString()
+        {
+            return string.Format("{0} of {1}", Face, Suit);
+        }
     }
 }

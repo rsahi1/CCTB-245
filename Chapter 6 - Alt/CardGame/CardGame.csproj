@@ -41,7 +41,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdHoc-Demo\ArrayDemo.cs" />
+    <Compile Include="AdHoc-Demo\DictionaryDemo.cs" />
+    <Compile Include="AdHoc-Demo\ListDemo.cs" />
+    <Compile Include="AdHoc-Demo\Player.cs" />
+    <Compile Include="AdHoc-Demo\QueueDemo.cs" />
+    <Compile Include="AdHoc-Demo\StackDemo.cs" />
+    <Compile Include="GameElements\AbstractFishPlayer.cs" />
     <Compile Include="GameElements\Card.cs" />
+    <Compile Include="GameElements\DeckOfCards.cs" />
+    <Compile Include="GameEngine\GoFish.cs" />
+    <Compile Include="GameEngine\IFishPlayer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
